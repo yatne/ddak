@@ -68,7 +68,7 @@ export const MapQuiz = ({ onSuccess }) => {
     }
 
     return (
-        <APIProvider apiKey={'AIzaSyDwkXMoS1LGkLbusCXGeVuZz13L0tRKot8'} onLoad={() => console.log('Maps API has loaded.')}>
+        <APIProvider apiKey={'AIzaSyDpdTb387594vIaBoKxDjQRu91w5kcGfGY'} onLoad={() => console.log('Maps API has loaded.')}>
             <div className="layout" >
                 <div className="container">
                     <div className="title"> {allFound ? 'Jan Tatarowicz' : 'Gdzie Twój luby pracował?'} </div>
