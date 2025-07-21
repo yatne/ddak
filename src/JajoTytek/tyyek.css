@@ -1,3 +1,17 @@
 .image {
     width: 50%;
 }
+
+.hidden-hint {
+    background-color: white;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.image-question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

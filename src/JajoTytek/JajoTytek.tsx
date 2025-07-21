@@ -1,5 +1,6 @@
 import sjst from '../assets/img/sjst.png';
 import {AnswerInput} from "../AnswerInput/AnswerInput";
+import "./tyyek.css";
 
 export const JajoTytek = ({onSuccess}) => {
     return (
@@ -10,6 +11,10 @@ export const JajoTytek = ({onSuccess}) => {
                 'superjajo supertytek',
                 'supertytek i superjajo',
                 'supertytek superjajo',
+                'Super jajo i Super tytek',
+                'Super jajo Super tytek',
+                'Super tytek i Super jajo',
+                'Super tytek Super jajo',
             ]}/>
         </div>
     )
